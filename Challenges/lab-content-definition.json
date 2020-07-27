@@ -1,0 +1,72 @@
+{
+    "Title": "microsoft-open-hack-data-science-devops",
+    "Description" : "OpenHack challenges for integrating DevOps practices with Machine Learning technology",
+    "OverviewUrl" : "0_Home.html",
+    "ContentVersion": "1.6",
+    "ContentPackage": {
+      "ContentItems": [
+        {
+          "Order": 1,
+          "Title": "Challenge 1: Create your development environment",
+          "Description": "Create your development environment",
+          "Url": "Challenge01.html"
+        },
+        {
+          "Order": 2,
+          "Follows": 1,
+          "Title": "Challenge 2: Refactor Model Training Code",
+          "Description": "Refactor a training notebook into a script",
+          "Url": "Challenge02.html"
+        },
+        {
+          "Order": 3,
+          "Follows": 2,
+          "Title": "Challenge 3: Azure Machine Learning Pipelines and Real-Time Inference",
+          "Description": "Create a Machine Learning pipeline to orchestrate an ML workflow",
+          "Url": "Challenge03.html"
+        },
+        {
+          "Order": 4,
+          "Follows": 3,
+          "Title": "Challenge 4: Training from a DevOps Pipeline",
+          "Description": "Create a DevOps pipeline to manage the Machine Learning pipeline creation process",
+          "Url": "Challenge04.html"
+        },
+        {
+          "Order": 5,
+          "Follows": 4,
+          "Title": "Challenge 5: Observability: Log Metrics and Model Evaluation",
+          "Description": "Capture metrics during model training and evaluate the trained model before registering",
+          "Url": "Challenge05.html"
+        },
+        {
+          "Order": 6,
+          "Follows": 5,
+          "Title": "Challenge 6: Observability: Monitoring Deployed Model",
+          "Description": "Monitor the model and deployed ML model web service for performace issues",
+          "Url": "Challenge06.html"
+        },
+        {
+          "Order": 7,
+          "Follows": 4,
+          "Title": "Challenge 7: Data Ops for ML: Data Ingestion & Pre-processing",
+          "Description": "Build a data ingestion pipeline to prepare data for model training",
+          "Url": "Challenge07.html"
+        },
+        {
+          "Order": 8,
+          "Follows": 7,
+          "Title": "Challenge 8: Data Ops for ML: CI/CD Pipelines as Code",
+          "Description": "Create CI/CD pipelines to deploy the data ingestion solution across multiple environments",
+          "Url": "Challenge08.html"
+        },
+        {
+          "Order": 9,
+          "Follows": 4,
+          "Title": "Challenge 9: Advanced: Canary deployment",
+          "Description": "Deploy the model to a Kubernetes cluster with a Canary deployment strategy",
+          "Url": "Challenge09.html"
+        }
+      ]
+    }
+  }
